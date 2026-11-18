@@ -7,8 +7,8 @@
 
 :root{
     --rosa: #D87093; 
-    --rfuerte: #AA336A;
-    --amarillo:#fffa9f;
+    --rfuerte: #9f456f;
+    --amarillo:#fafad6;
 }
 
 html {
@@ -18,8 +18,8 @@ html {
 body {
   margin: 0;
   font-family: "Noto Sans Mono", monospace;
-  color: var(--azul);
-  background: var(-amarillo);
+  color: var(--rfuerte);
+  background: var(--amarillo);
   overflow-x: hidden;
 }
 
@@ -109,7 +109,7 @@ img {
   border-radius: 9999px;
   background-color: #aa567f; /* Ajusta al color de tu marca */
   color: #fbf6c6;
-  font-weight: 600;
+  font-weight: 600; 
   cursor: pointer;
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
@@ -150,6 +150,6 @@ img {
 
 h1, h2, h3 { 
     font-family: "Lexend Giga", 
-    serif; color: var(--ink); 
+    serif; color: var(--rosa); 
     margin: 0; 
 }
